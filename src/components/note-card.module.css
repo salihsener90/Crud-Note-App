@@ -1,0 +1,17 @@
+/* class ismini tanımlarken - kullanmıyoruz 
+camelCase kullanıyoruz
+*her module bir bileşene özel olduğu için 
+class ismini tanımlarken acaba bu ismi farklı bir bileşende kullandım mı
+diye dert etmeye gerek kalmıyor
+cunku bu class ismin tanmladığımız zaman 
+module css bu calssı 'ın benzersiz bir ismin olusturur
+*/
+.noteCard {
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.noteCard:hover {
+    transform: translate(10px, -10px);
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.274))
+}
